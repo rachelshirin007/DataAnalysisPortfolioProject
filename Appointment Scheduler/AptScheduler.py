@@ -27,9 +27,9 @@ try:
     ssn = driver.find_element(By.ID, "last4Ssn")
 
     first_name.send_keys("Rachel Shirin")
-    last_name.send_keys("Padibandla")
-    dob.send_keys("09/27/1997")
-    ssn.send_keys("1234")
+    last_name.send_keys("xxxxxxxxxx")
+    dob.send_keys("xx/xx/xxxx")
+    ssn.send_keys("xxxx")
 
     driver.implicitly_wait(60)
     login_btn = driver.find_element(By.CSS_SELECTOR, "#app > section > div > main > div > section > div.px-3 > div > div > form > div.menucard.form.mx-auto.mt-8.v-card.v-card--outlined.v-card--shaped.v-sheet.theme--light > div.v-card__actions.text-center > button")
@@ -53,9 +53,9 @@ try:
     email = driver.find_element(By.CSS_SELECTOR, "#input-138")
     verify_email = driver.find_element(By.CSS_SELECTOR, "#input-141")
 
-    cell_phone.send_keys("2145377592")
-    email.send_keys("rachelshirin123@gmail.com")
-    verify_email.send_keys("rachelshirin123@gmail.com")
+    cell_phone.send_keys("xxxxxxxxxx")
+    email.send_keys("xxxxxxxxxxxxxxx@gmail.com")
+    verify_email.send_keys("xxxxxxxxxxxxxxx@gmail.com")
 
     driver.find_element(By.CSS_SELECTOR, "#app > section > div > main > div > section > div.px-3 > div > form > div > div:nth-child(1) > div > div.layout.ml-5.mt-n4.row.wrap > div > div:nth-child(1) > div > div.v-input__slot > div > div").click()
 
